@@ -1,0 +1,21 @@
+﻿Fix auto reset of time error
+Techinque 1:
+	a. Go to "Change the date and time"
+	b. Turn on "Set time automatically"
+	c In "Time Zone" set region.
+Techinque 2:
+	a. Go to "Services"
+	b. Go to "Windows Time"
+	c. Set "Startup type" as "Automatic" then stop & start the service.
+	d Apply & restart PC
+Techinque 3:
+	a. Go to "Date and Time" > "Ïnternet Time" > "Change Settings..."
+	b. Update & Ok, Apply.
+Techinque 4:
+	a. Go to CMD with administrator access
+	b. Type "regsvr32 w32time.dll" and enter
+	c. Restart
+Techinque 5:
+	a. Check Bios Time and Change that if now correct
+Techinque 6:
+	a. Change Bios Battery

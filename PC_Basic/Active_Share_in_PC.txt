@@ -1,0 +1,12 @@
+				Command in CMD with administrator access
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. netsh wlan show drivers :=> Then check "Hosted network supported : Yes".
+			If so then you can create hotspot only.
+----------------------------------------------------------------------------
+2. netsh wlan set hostednetwork mode=allow ssid=hotspot_name key=hotspot_password
+		:=> Allow and set the hotspot.
+------------------------------------------------------------------------------
+3. netsh wlan start hostednetwork :=> start the hotspot network.
+------------------------------------------------------------------------------
+4. netsh wlan stop hostednetwork :=> stop the hotspot network.

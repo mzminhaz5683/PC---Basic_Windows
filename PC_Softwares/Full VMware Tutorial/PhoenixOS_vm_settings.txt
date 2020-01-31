@@ -1,0 +1,32 @@
+			Create vmWare machine to run PhoenixOS
+				by MZ
+
+1. Create virtual machine as :
+	a. Hardware Compatibility :> "WorkStation 12.x"
+	b. Guest operating system :> "Other"
+	c. Version :> "Other 64-bit"
+
+2. After finish of creating V.Machine edit "virtual machine Settings"
+	a. Go "Hardwere">"Display"
+		i) Check box of "Accelerate 3D graphis"
+		ii) Set radio buttion to "Specify monitor settings" & load nearest "maximum resolution" of that PC
+		iii) Set "Graphics memory" :> 768 MB"
+		iv) Check the box "Automatically adjust user interface size in the virtual machine"
+	b. Go "Options">"General"
+		Set "Enhanced keyboard" > "Use if avaiable"
+	c. Go "Hardwere"
+		i) Select 'Add...' > 'USB Controller' > 'Finish'
+		ii) Go "Hardwere">"USB Controller" then do as
+		iii) 'USB compatibility' : USB 3.0
+		iv) Check the box 'Show all USB input devices'
+3. Apply & Ok....Done.
+
+Note: Guest operating system :> "Other" can be used for any operating system
+	 But then "VM Tools" can't be installed using direct injection of vmWare Interface.
+
+4. Using any ms_os installer create the hard-disk partitions;
+	must create System-Reserved directory.(recommanded)
+
+5. Done
+
+Installation is same as General.

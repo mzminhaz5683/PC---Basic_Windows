@@ -1,0 +1,21 @@
+
+@echo on
+cd /
+cd C:\Users\MZ\Desktop\
+echo "Press enter only if this terminal is in administrator mode......."
+echo "Otherwise cancel it and run again with administrator access."
+pause
+
+----------------note----------------------
+1. make shortcut of all setups in desktop.
+2. copy cmd.exe in desktop and run the command
+	dir /B *.lnk > load.bat
+3. using sublime-text edit load.bat as this structure.(without note area)
+	**Note: Change the user name with yours at line 3 (cd C:\Users\user_name\Desktop\) 
+4. make all links between "" (like : "setup.exe - shortcut.lnk")
+5. remove this note area.
+6. save and run in administrator mode.
+7. don't reboot PC till full script is complete.
+-----------------note---------------------
+
+pause

@@ -1,0 +1,72 @@
+						Installation of PhoenixOS in Dual Boot using ISO
+									BY MZ
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Boot Pendrive using PhoniexOS ISO image file.
+ 
+1.	Select Installation &
+--------------------------------------------------------------------------------------------------
+	1(a) If PhoenixOS will be the only OS; then at next window
+		1. Select 'Create/Modify partitions'.
+		2. Select 'No' for using 'GTP'.
+		3. Select the full free-space (if necessary then use up/down key to select)
+		4. Then for the free-space select using left/right key (System Reserved directory)
+			'New' > 'Primary' > {Give at lest} 220 MB > 'Beginning' > 'Bootable'
+
+		5. Select the free-space (if necessary then use up/down key to select)
+		6. Then for the free-space select using left/right key (OS directory)
+			'New' > 'Primary' > {Give what you wish; but at least 10 GB} > 'End'
+
+		7. Do 5 & 6 till all desire directory(s) are created.
+			(for the last free-space there will be no position selection)
+
+		8. Then select 'Write' using left/right key and type 'yes' (to active the table).
+		9. Wait untill 'Wrote Partition table to disk' message shown & then select 'Quit'.
+--------------------------------------------------------------------------------------------------
+
+
+2.	Select the desire disk Partition where to install PhoenixOS(OS directory)
+3.	Format as ext4
+-----------------------------------------------------------------------------------
+4.	If 1(a) is the situation;
+		a. Then Install GRUB2 and load it in the System Reserved directory [-> 1(a)4.]
+		b. Format as ext4
+	otherwise;
+		Skip Installation of GRUB2
+----------------------------------------------------------------------------------
+5.	Install GRUB (Recommended)
+6.	After successfully install
+		a. Remove Boot - Drive
+		b. Reboot.
+7.	After OS is ready.
+		a. Go Settings > Languages & input > Virtual Keyboard  &  Physical Keyboard
+		b. Select all language sections as English (US) - International Style
+		c. Go Go Settings > Display > Display Resulation
+		d. Select your PC resulation and Restart PC. 
+8.	Uninstall unnecessary apps.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Dual Boot~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+At rebooting, If windows OS will be auto booted as boot manager can't find PhoenixOS, so then
+
+9.	In windows OS run "EasyBCD.exe" from "booter_(Grub)_Windows".
+10.	Go "Add New Entry" & Select "Linux/BSD" and set variable boxes as :
+		a. Type :> GRUB(Legacy)
+		b. Name :> Phoenix OS
+		c. Check the box of "Use EasyBCD's copy of GRUB" : Note :: Drive :will be> Automatically locate and load
+11.	Press [+] sign and it will show that the GRUB is updated successfully.
+12.	Go "Edit Boot Manu"
+		a. Check the OS-box which will be Default
+		b. Set "Count down from" :> 10
+12.	Hit "Save Settings" and restart PC....Done.
+
+Note: For some windows OS the Grub is loaded at booting and there is no option to select windows OS.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					Installation of PhoenixOS in Dual Boot using exe
+1. Create a partition in NTFS format.
+2. Run the PhoenixOS_installer.exe
+3. Select the flag of the dartition.
+4. Select the desire internal memory of the Android OS.
+5. Wait till finish....Done...
+6. Restart PC.

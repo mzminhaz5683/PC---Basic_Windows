@@ -1,0 +1,11 @@
+Steps for creating Terminal/CMD sheet....By MZ (mz.minhaz5683@gmail.com)
+------------------------------------------------------------------------
+1. Open a text editor
+2. type ~> @echo on/off #for visual/hide mode of Portal
+3. type all commands (One line act as a group of command instruction)
+		like : pip install pandas
+4. type ~> pause #to hold the window till a press
+5. Save the file with '.bat' extension.
+
+Note: If there is any command which need administrator access then run
+		the file in administrator mode. 

@@ -1,0 +1,15 @@
+~~~~~~~~~~~INSTRUCTION OF INSTALLING MZ'S PC (2/4/19)~~~~~~~~~~~~~~~~~~~~~
+
+1. Default Change: Touch-Screen, Internet, Font size: (Icons:16, Manus:15), Mouse:Single
+2. sc delete: windows updates, searches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Drivers Install (without restart)
+4. Browser Install: Chrome, Firefox(disable Update)
+5. Advanced Install: IDM(active patch), PC_Remote_Receiver, saytime
+6. PC Protector Install: Anvi Folder Locker, IObit Uninstaller(uninstall all default soft)
+7. Tools Install: ClassicShell, flux, WinRAR,
+8. Player Install: DirectX, BlueStack(active root & patch), picasa, PotPlayer(disable update), VMware
+9. Tools for study Install: Sublime Text(load user-setting), MS_Office
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+10. Disable: VMware network Adapters
+11. Restart....Done
